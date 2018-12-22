@@ -1,0 +1,64 @@
+body{
+background-color: black;
+}
+#container{
+    border-style: double;
+    border-color: white;
+    border-width: 5px;
+    margin: 5%;
+}
+.head{
+ font-family: 'Charm', cursive;
+ color: white;
+ font-size: 50px;
+ text-align: center;
+}
+#remaining{
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    height: 30px;
+    width: 20%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#slots{
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    height: 30px;
+    width: 20%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+#loses{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    height: 30px;
+    width: 20%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+#roundWins{
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    height: 30px;
+    width: 20%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#img2{
+   margin: 5% 35% 5% 35%;
+  
+
+
+}
