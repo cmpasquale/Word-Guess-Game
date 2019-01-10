@@ -1,0 +1,1 @@
+function getFileExtension(a){if(a.length==0){return""}var b=a.lastIndexOf(".");if(b==-1){return""}var c=a.substr(b,a.length);return c}

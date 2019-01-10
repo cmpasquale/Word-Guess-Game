@@ -1,0 +1,427 @@
+.QDImageDiv
+{
+  background-color:#ffffff;
+  margin:5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px outset #666666;
+  width: 125px;
+  height: 125px;
+  overflow: hidden;
+  cursor:pointer;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.PreviewArea
+{
+  background-color: #cccccc;
+  border: 2px outset #dddddd;
+  border-radius: 10px;
+  display:none;
+  font-family: arial;
+  height: 650px;
+  left: 800px;
+  margin-left: 10px;
+  margin-top: -325px;
+  position: fixed;
+  top: 50%;
+  width: calc(100% - 820px);
+  overflow: auto;
+}
+
+.QD_CS_Select
+{
+  border-right-style:none;
+  border-top:1px solid #999999;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #999999;
+  background-color:#ffffff;
+  width:300px;
+  height:26px;
+  margin-left:5px;
+  cursor:pointer;
+}
+
+.QD_CS_Swatch
+{
+  float:left;
+  width:20px;
+  height:20px;
+  background-color:#ffffff;
+  margin-left:2px;
+  margin-top:2px;
+  border: 1px solid #cccccc;
+}
+
+.QD_CS_Text
+{
+  float:left;
+  margin-left:5px;
+  margin-top:4px;
+}
+
+.QD_CS_Arrow
+{
+  float:right;
+  width:20px;
+  text-align:right;
+  height:100%;
+  background-color:#ffffff;
+  border-right: 1px solid #cccccc;
+}
+
+.QD_CS_List
+{
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  display: block;
+  font-family: arial;
+  font-size: 13px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(153, 153, 153) rgb(0, 0, 0) rgb(0, 0, 0) rgb(153, 153, 153);
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+  top: 0px;
+  left: 10px;
+}
+
+.QD_FS_Select
+{
+  position: relative;
+  float:left;
+  border-right-style:none;
+  border-top:1px solid #999999;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #999999;
+  background-color:#ffffff;
+  width:300px;
+  height:26px;
+  margin-left:5px;
+  cursor:pointer;
+}
+
+.QD_FS_List
+{
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  display: block;
+  font-family: arial;
+  font-size: 13px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(153, 153, 153) rgb(0, 0, 0) rgb(0, 0, 0) rgb(153, 153, 153);
+  background-color: rgb(255, 255, 255);
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 0px;
+  left: 10px;
+}
+
+.QD_FS_Text
+{
+  float:left;
+  margin-left:5px;
+  margin-top:4px;
+}
+
+.QD_FS_Arrow
+{
+  float:right;
+  width:20px;
+  text-align:right;
+  height:100%;
+  background-color:#ffffff;
+  border-right: 1px solid #cccccc;
+}
+
+.QD_Combo_Select
+{
+  position: relative;
+  border-right-style:none;
+  border-top:1px solid #999999;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #999999;
+  background-color:#ffffff;
+  width:495px;
+  height:26px;
+  margin-left:5px;
+  cursor:pointer;
+}
+
+.QD_Combo_List
+{
+  position: absolute;
+  width: 495px;
+  height: 100px;
+  display: block;
+  font-family: arial;
+  font-size: 13px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(153, 153, 153) rgb(0, 0, 0) rgb(0, 0, 0) rgb(153, 153, 153);
+  background-color: rgb(255, 255, 255);
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 0px;
+  left: 5px;
+  white-space: pre;
+}
+
+.QD_Combo_Text
+{
+  float:left;
+  margin-left:5px;
+  margin-top:4px;
+  width:465px;
+  white-space: pre;
+}
+
+.QD_Combo_Arrow
+{
+  float:right;
+  width:20px;
+  text-align:right;
+  height:100%;
+  background-color:#ffffff;
+  border-right: 1px solid #cccccc;
+}
+
+.QD_Combo_List_Item
+{
+  cursor:pointer;
+  padding: 2px;
+  width: calc(100% - 4px);
+}
+
+.QD_LinkVar_Select
+{
+  position: relative;
+  border-right-style:none;
+  border-top:1px solid #999999;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #999999;
+  background-color:#ffffff;
+  width:495px;
+  height:26px;
+  margin-left:5px;
+  cursor:pointer;
+}
+
+.QD_LinkVar_List
+{
+  position: absolute;
+  width: 495px;
+  height: 100px;
+  display: block;
+  font-family: arial;
+  font-size: 13px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(153, 153, 153) rgb(0, 0, 0) rgb(0, 0, 0) rgb(153, 153, 153);
+  background-color: rgb(255, 255, 255);
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 0px;
+  left: 5px;
+  white-space: pre;
+}
+
+.QD_LinkVar_Text
+{
+  float:left;
+  margin-left:5px;
+  margin-top:4px;
+  width:465px;
+  white-space: pre;
+}
+
+.QD_LinkVar_Arrow
+{
+  float:right;
+  width:20px;
+  text-align:right;
+  height:100%;
+  background-color:#ffffff;
+  border-right: 1px solid #cccccc;
+}
+
+.QD_LinkVar_List_Item
+{
+  cursor:pointer;
+  padding: 2px;
+  width: calc(100% - 4px);
+}
+
+.QD_TextBox
+{
+  border-right-style:none;
+  border-top:1px solid #999999;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #999999;
+  background-color:#ffffff;
+  margin: 0 1px 1px 5px;
+  word-wrap:break-word;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width:495px;
+}
+
+.QD_History_Select
+{
+  float:left;
+  border-right-style:none;
+  border-top:1px solid #999999;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #999999;
+  background-color:#ffffff;
+  width:300px;
+  height:26px;
+  margin-left:5px;
+  cursor:pointer;
+}
+
+.QD_History_Text
+{
+  float:left;
+  margin-left:5px;
+  margin-top:4px;
+  width:270px;
+  height:100%;
+}
+
+.QD_History_Arrow
+{
+  float:right;
+  width:20px;
+  text-align:right;
+  height:100%;
+  background-color:#ffffff;
+  border-right: 1px solid #cccccc;
+}
+
+.QD_History_List
+{
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  display: block;
+  font-family: arial;
+  font-size: 13px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(153, 153, 153) rgb(0, 0, 0) rgb(0, 0, 0) rgb(153, 153, 153);
+  background-color: rgb(255, 255, 255);
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 0px;
+  left: 5px;
+}
+
+.QD_History_List_Item
+{
+  cursor:pointer;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.QD_PreviewDiv
+{
+  /* background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 10px; */
+  cursor: pointer;
+  height: 250px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 225px;
+}
+
+.QD_PreviewButton
+{
+  background-color: #ffffff;
+  color: #333333;
+  width:150px;
+  margin:0 auto;
+  padding: 10px;
+  position:relative;
+  top:50%;
+  transform: translateY(-50%);
+  font-family: arial;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px outset #666666;
+}
+
+.QD_UpdateHistoryButton
+{
+  float:left;
+  background-color: #ffffff;
+  color: #333333;
+  margin:0 0 0 10px;
+  padding: 4px 10px;
+  position:relative;
+  font-family: arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px outset #666666;
+}
+
+.QD_FileUploadButton
+{
+  float:left;
+  background-color: #ffffff;
+  color: #333333;
+  margin:5px 0 5px 10px;
+  padding: 4px 10px;
+  position:relative;
+  font-family: arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px outset #666666;
+}
+
+.QD_FileUploadFileName
+{
+  float:left;
+  font-family: arial;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+  margin: 10px;
+}
+
+.divUploadPopup
+{
+  background-color: #ffffff;
+  position: fixed;
+  top: 30%;
+  left: 25%;
+  width: 600px;
+  height: 200px;
+  z-index: 10000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px outset #666666;
+  overflow: hidden;
+}
