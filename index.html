@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>WordGuessGame</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <link rel ="stylesheet" type = "text/css" href="assets/css/reset.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-</head>
-<body>
-    
- </body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Word Guess Game</title>
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+ 
+<div class="hangman" style= "font-family: 'Rock Salt', cursive; font-size: 20px; color: #ff81c1">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Simpsons Word Guess</h1>
+            <p class="lead"> Someone stole spiderpig! You must help Chief Wiggum capture them.</p>
+        </div>
+    </div>
+    <div class="guess"></div>
+    <form class="guessForm">
+        <input style= "font-family: 'Rock Salt', cursive; font-size: 20px;" type="text" class="guessLetter" maxlength="1" placeholder="Enter a letter . . . &#x23ce;" /> <button
+            type="submit"style= "font-family: 'Rock Salt', cursive; font-size: 20px;" class="guessButton">Guess</button>
+    </form>
+    <div  class="wrong">
+        <div class="wrongLetters" style= "font-family: 'Rock Salt', cursive; font-size: 20px;"></div>
+    </div>
+    <div class="message">
+        <h1 class="title"></h1>
+        <p class="text"></p>
+        <button  style= "font-family: 'Rock Salt', cursive; font-size: 20px;"class="restart button">Play Again?</button>
+
+    </div>
+</div>
+</body>
+</html>
